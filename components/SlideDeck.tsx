@@ -49,14 +49,13 @@ export const SlideDeck: React.FC = () => {
     <div className="min-h-screen w-full bg-[#fffdfa] text-[#231519] font-body selection:bg-[#9d5c63] selection:text-white">
       <MusicPlayer />
 
-      {/* 1. NAVBAR USING THE EXACT WHITE FROM https://mbiu-music.vercel.app/ (#fffdfa pill on #fcf4e5/85) */}
+      {/* 1. FLOATING NAVBAR OVER STRETCHED HERO BACKGROUND */}
       <header
-        id="section-home"
-        className="sticky top-0 z-50 w-full bg-[#fcf4e5]/85 px-3 py-2.5 backdrop-blur-md transition-colors sm:px-6 sm:py-3"
+        className="fixed top-0 inset-x-0 z-50 w-full bg-transparent px-3 py-2.5 transition-colors sm:px-6 sm:py-3.5 pointer-events-none"
       >
         <nav
           aria-label="Main Navigation"
-          className="mx-auto flex max-w-[1280px] items-center justify-between rounded-full border border-[#d5c5b2] bg-[#fffdfa] px-4 py-2 shadow-[0_16px_40px_-16px_rgba(22,26,38,0.22),0_3px_10px_-2px_rgba(22,26,38,0.08)] backdrop-blur-xl sm:px-6 sm:py-2.5"
+          className="pointer-events-auto mx-auto flex max-w-[1280px] items-center justify-between rounded-full border border-[#d5c5b2] bg-[#fffdfa]/95 px-4 py-2 shadow-[0_16px_40px_-16px_rgba(22,26,38,0.22),0_3px_10px_-2px_rgba(22,26,38,0.08)] backdrop-blur-xl sm:px-6 sm:py-2.5"
         >
           {/* Official KamiLimu Logo + "the effect · mercyline" below */}
           <button
@@ -126,8 +125,8 @@ export const SlideDeck: React.FC = () => {
         </nav>
       </header>
 
-      {/* 2. HERO BANNER (#e8d5d1 Warm Dusty Blush-Taupe) */}
-      <section className="relative w-full bg-[#e8d5d1] pt-10 pb-24 sm:pt-14 sm:pb-28 px-6 sm:px-14">
+      {/* 2. HERO BANNER (#e8d5d1 Warm Dusty Purplish-Blush Stretching Behind the Navbar) */}
+      <section id="section-home" className="relative w-full bg-[#e8d5d1] pt-24 pb-24 sm:pt-30 sm:pb-28 px-6 sm:px-14">
         {/* Left Hero Carousel Arrow */}
         <button
           onClick={() => setHeroIdx((prev) => (prev - 1 + heroSlides.length) % heroSlides.length)}
