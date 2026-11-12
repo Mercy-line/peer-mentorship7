@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #ffffff;
+  --color-bg-blush: #f7ebec;
+  --color-hero: #e8d5d1;
+  --color-mauve: #9d5c63;
+  --color-mauve-soft: #b38284;
+  --color-plum: #4a2531;
+  --color-ink: #231519;
+  --color-ink-dim: #6e555c;
+  --color-line: #eee2e0;
+
+  --font-display: var(--font-inter), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-mono: var(--font-inter), sans-serif;
+}
+
+:root {
+  --bg: #ffffff;
+  --bg-blush: #f7ebec;
+  --hero: #e8d5d1;
+  --mauve: #9d5c63;
+  --mauve-soft: #b38284;
+  --plum: #4a2531;
+  --ink: #231519;
+  --ink-dim: #6e555c;
+  --line: #eee2e0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.7s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.65s cubic-bezier(0.19, 1, 0.22, 1) both;
+}
+
+.animate-float {
+  animation: floatSlow 5.5s ease-in-out infinite;
+}
