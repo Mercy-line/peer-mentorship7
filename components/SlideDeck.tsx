@@ -14,7 +14,7 @@ import {
 export const SlideDeck: React.FC = () => {
   const [heroIdx, setHeroIdx] = useState(0);
   const [circleIdx, setCircleIdx] = useState(0);
-  const [activeNav, setActiveNav] = useState("home");
+  const [activeNav, setActiveNav] = useState("Home");
   const [likedCards, setLikedCards] = useState<Record<string, boolean>>({
     voice: true,
     resilience: true,
@@ -59,7 +59,7 @@ export const SlideDeck: React.FC = () => {
         >
           {/* Official KamiLimu Logo + "the effect · mercyline" below */}
           <button
-            onClick={() => scrollToSection("section-home", "home")}
+            onClick={() => scrollToSection("section-home", "Home")}
             className="flex flex-col items-start pl-1 transition hover:opacity-90 cursor-pointer"
           >
             <img
@@ -72,15 +72,15 @@ export const SlideDeck: React.FC = () => {
             </span>
           </button>
 
-          {/* Center Navigation Links (lowercase / normal case) */}
+          {/* Center Navigation Links */}
           <div className="hidden md:flex items-center gap-7 lg:gap-9 text-[13.5px] font-semibold tracking-[0.02em] text-[#231519]">
             {[
-              { label: "home", target: "section-home" },
-              { label: "pillars", target: "section-pillars" },
-              { label: "innovation", target: "section-innovation" },
-              { label: "defining moments", target: "section-moments" },
-              { label: "lessons & circle", target: "section-circle" },
-              { label: "super gal", target: "section-footer" },
+              { label: "Home", target: "section-home" },
+              { label: "Pillars", target: "section-pillars" },
+              { label: "Innovation", target: "section-innovation" },
+              { label: "Defining moments", target: "section-moments" },
+              { label: "Lessons & circle", target: "section-circle" },
+              { label: "Super gal", target: "section-footer" },
             ].map((item) => {
               const isActive = activeNav === item.label;
               return (
@@ -116,10 +116,10 @@ export const SlideDeck: React.FC = () => {
               </svg>
             </button>
             <button
-              onClick={() => scrollToSection("section-moments", "defining moments")}
+              onClick={() => scrollToSection("section-moments", "Defining moments")}
               className="inline-flex h-10 items-center justify-center gap-2 rounded-full bg-[#9d5c63] hover:bg-[#874c53] px-4 sm:px-5 text-[12.5px] font-semibold tracking-wide text-white shadow-[0_8px_20px_rgba(157,92,99,0.32)] transition cursor-pointer"
             >
-              <span>110% effect</span>
+              <span>110% Effect</span>
             </button>
           </div>
         </nav>
@@ -169,7 +169,7 @@ export const SlideDeck: React.FC = () => {
                 {currentHero.cta}
               </button>
               <button
-                onClick={() => scrollToSection("section-moments", "defining moments")}
+                onClick={() => scrollToSection("section-moments", "Defining moments")}
                 className="px-6 py-3.5 rounded-full bg-[#fffdfa] hover:bg-white text-[#4a2531] text-[13px] font-semibold tracking-[0.04em] border border-[#9d5c63]/30 shadow-[0_8px_20px_rgba(157,92,99,0.16)] transition-all cursor-pointer"
               >
                 Read my journey
@@ -320,7 +320,7 @@ export const SlideDeck: React.FC = () => {
             </div>
             <div className="mt-6">
               <button
-                onClick={() => scrollToSection("section-circle", "lessons & circle")}
+                onClick={() => scrollToSection("section-circle", "Lessons & circle")}
                 className="px-6 py-3 rounded-full bg-[#fffdfa] hover:bg-[#f7ebec] text-[#9d5c63] text-[12.5px] font-bold tracking-[0.04em] transition-all cursor-pointer shadow-md"
               >
                 {innovationSpotlight.buttonText}
@@ -351,10 +351,10 @@ export const SlideDeck: React.FC = () => {
             <div className="w-10 h-[2px] bg-[#9d5c63] mx-auto mt-2" />
           </div>
           <button
-            onClick={() => scrollToSection("section-circle", "lessons & circle")}
+            onClick={() => scrollToSection("section-circle", "Lessons & circle")}
             className="px-4 py-1.5 rounded-full bg-[#f7ebec] hover:bg-[#9d5c63] hover:text-white text-[12.5px] font-bold tracking-[0.03em] text-[#9d5c63] transition-colors cursor-pointer"
           >
-            view all
+            View all
           </button>
         </div>
 
@@ -617,27 +617,27 @@ export const SlideDeck: React.FC = () => {
             </div>
             <ul className="space-y-2 text-[12.5px] text-[#e8d5d1]">
               <li>
-                <button onClick={() => scrollToSection("section-home", "home")} className="hover:text-white cursor-pointer">
+                <button onClick={() => scrollToSection("section-home", "Home")} className="hover:text-white cursor-pointer">
                   Where I found myself
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection("section-pillars", "pillars")} className="hover:text-white cursor-pointer">
+                <button onClick={() => scrollToSection("section-pillars", "Pillars")} className="hover:text-white cursor-pointer">
                   Growth pillars
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection("section-innovation", "innovation")} className="hover:text-white cursor-pointer">
+                <button onClick={() => scrollToSection("section-innovation", "Innovation")} className="hover:text-white cursor-pointer">
                   Innovation pillar
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection("section-moments", "defining moments")} className="hover:text-white cursor-pointer">
+                <button onClick={() => scrollToSection("section-moments", "Defining moments")} className="hover:text-white cursor-pointer">
                   Defining moments
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection("section-circle", "lessons & circle")} className="hover:text-white cursor-pointer">
+                <button onClick={() => scrollToSection("section-circle", "Lessons & circle")} className="hover:text-white cursor-pointer">
                   Lessons & close circle
                 </button>
               </li>
