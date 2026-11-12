@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The KamiLimu Effect · Where I Found Myself — Mercyline",
+  title: "The KamiLimu Effect · Where I Found Myself · Mercyline",
   description:
-    "Cohort 10 Peer Mentorship Task 7: What KamiLimu Means to Me — A Place of Discovery, Resilience, and Growth.",
+    "Cohort 10 Peer Mentorship Task 7: What KamiLimu Means to Me. A Place of Discovery, Resilience, and Growth.",
 };
 
 export default function RootLayout({

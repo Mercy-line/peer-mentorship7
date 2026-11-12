@@ -271,7 +271,7 @@ export const SlideDeck: React.FC = () => {
         </div>
       </div>
 
-      {/* 4. 6 CIRCULAR PILLARS — Rings Removed, Full Edge-to-Edge Circles with Colored Drop Shadows */}
+      {/* 4. 6 CIRCULAR PILLARS · Rings Removed, Full Edge-to-Edge Circles with Colored Drop Shadows */}
       <section id="section-pillars" className="max-w-[1220px] mx-auto px-4 sm:px-8 pt-14 pb-12 text-center">
         <h2 className="text-[20px] sm:text-[24px] font-bold tracking-[0.02em] text-[#231519]">
           My KamiLimu growth pillars
@@ -607,7 +607,7 @@ export const SlideDeck: React.FC = () => {
               Mercyline Nyaboke · Cohort 10
             </div>
             <p className="mt-3 text-[13px] text-[#e8d5d1] leading-relaxed max-w-xs">
-              &ldquo;KamiLimu is a dream come true for me — my place of discovery, where the girl who doubted whether she belonged in tech finally found herself.&rdquo;
+              &ldquo;KamiLimu is a dream come true for me. It is my place of discovery, where the girl who doubted whether she belonged in tech finally found herself.&rdquo;
             </p>
           </div>
 
@@ -669,7 +669,7 @@ export const SlideDeck: React.FC = () => {
             </p>
             <div className="flex items-stretch rounded-md overflow-hidden border border-white/20 shadow-md">
               <div className="bg-[#fffdfa] text-[#231519] px-3 py-2.5 text-[12px] flex-1 flex items-center truncate">
-                August Green — Where I Found Myself
+                August Green · Where I Found Myself
               </div>
               <button
                 onClick={triggerMusic}

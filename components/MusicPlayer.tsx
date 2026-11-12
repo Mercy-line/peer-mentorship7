@@ -129,7 +129,7 @@ export const MusicPlayer: React.FC = () => {
           onClick={togglePlay}
           className="w-9 h-9 rounded-full bg-[#9d5c63] hover:bg-[#b38284] text-white flex items-center justify-center transition-all cursor-pointer active:scale-95 shadow-md"
           aria-label={isPlaying ? "Pause Where I Found Myself" : "Play Where I Found Myself"}
-          title={isPlaying ? "Pause soundtrack" : "Play Where I Found Myself — August Green"}
+          title={isPlaying ? "Pause soundtrack" : "Play Where I Found Myself · August Green"}
         >
           {isPlaying ? (
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">

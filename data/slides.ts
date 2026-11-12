@@ -5,7 +5,7 @@ export const heroSlides = [
     eyebrow: "Where I found myself · Cohort 10",
     title: "Dream Come True.\nReal Belonging.",
     subtitle:
-      "KamiLimu has become my place of discovery. From doubting whether I truly belonged in tech to realizing that yes — perhaps this is where I was meant to be, because if I wasn't meant to be here, I could not have been in KamiLimu.",
+      "KamiLimu has become my place of discovery. From doubting whether I truly belonged in tech to realizing that yes, perhaps this is where I was meant to be, because if I wasn't meant to be here, I could not have been in KamiLimu.",
     cta: "Play theme song",
     image: "/photos/DSC_5341.jpg",
     imagePos: "center 10%",
@@ -20,7 +20,7 @@ export const heroSlides = [
     eyebrow: "Public speaking, reading & writing",
     title: "Letting the\nAudience Feel You.",
     subtitle:
-      "I used to think public speaking was just communicating and getting off the stage — now I know it is about connecting with the audience and letting them feel you. And long letters or research papers no longer scare me.",
+      "I used to think public speaking was just communicating and getting off the stage. Now I know it is about connecting with the audience and letting them feel you. And long letters or research papers no longer scare me.",
     cta: "Explore my voice",
     image: "/photos/DSC_1597.jpg",
     imagePos: "center 10%",
@@ -33,9 +33,9 @@ export const heroSlides = [
   },
   {
     eyebrow: "Unbreakable resilience · 110%",
-    title: "8–9 Hours On the Road.\nStill Active.",
+    title: "8 to 9 Hours On the Road.\nStill Active.",
     subtitle:
-      "I used to travel for 4 hours and need a whole day of sleep before coming back to the world. KamiLimu changed that — now I travel 8–9 hours and still show up active the very next day.",
+      "I used to travel for 4 hours and need a whole day of sleep before coming back to the world. KamiLimu changed that for me. Now I travel 8 to 9 hours and still show up active the very next day.",
     cta: "See my growth",
     image: "/photos/DSC_5358.jpg",
     imagePos: "center 14%",
@@ -55,7 +55,7 @@ export const highlightBadges = [
     icon: "sparkle",
   },
   {
-    title: "8–9 hrs resilience",
+    title: "8 to 9 hrs resilience",
     subtitle: "Traveling far & active the very next day",
     icon: "bolt",
   },
@@ -88,7 +88,7 @@ export const categoryCircles = [
   },
   {
     label: "Resilience",
-    sub: "8–9 hrs & still active",
+    sub: "8 to 9 hrs & still active",
     image: "/photos/DSC_5358.jpg",
     objectPosition: "center 15%",
     targetId: "section-moments",
@@ -118,9 +118,9 @@ export const categoryCircles = [
 
 export const innovationSpotlight = {
   eyebrow: "The innovation pillar · my favorite chapter",
-  title: "Weuhhh — Sleepless Nights & True Meaning",
+  title: "Weuhhh, Sleepless Nights & True Meaning",
   description:
-    "At first when starting Innovation, I feared the Innovation pillar and just wanted to see what it entailed — but it has ended up being the best thing that has happened to me so far. From funnel research and building to problem validation and solution validation: long nights of no sleep, deep research, and trying to make things bring real meaning. I had never experienced such a thing, and because of KamiLimu, I have.",
+    "At first when starting Innovation, I feared the Innovation pillar and just wanted to see what it entailed, but it has ended up being the best thing that has happened to me so far. From funnel research and building to problem validation and solution validation: long nights of no sleep, deep research, and trying to make things bring real meaning. I had never experienced such a thing, and because of KamiLimu, I have.",
   buttonText: "Explore my lessons",
   image: "/photos/DSC_5356.jpg",
   objectPosition: "center 18%",
@@ -132,7 +132,7 @@ export const definingMomentsCards = [
     tag: "Voice, reading & writing",
     title: "Letting the Audience Feel You",
     description:
-      "Public speaking is more than communicating and getting off the stage — it's letting the audience feel you. I used to fear reading long letters & research papers and writing long pieces; now I read any paper without fear using the research funnel and keep improving my writing.",
+      "Public speaking is more than communicating and getting off the stage, it is about letting the audience feel you. I used to fear reading long letters & research papers and writing long pieces; now I read any paper without fear using the research funnel and keep improving my writing.",
     metric: "Fearless communicator",
     ratingCount: "110%",
     buttonLabel: "Public speaking & literacy",
@@ -142,10 +142,10 @@ export const definingMomentsCards = [
   {
     id: "resilience",
     tag: "Resilience & mind shift",
-    title: "8–9 Hours On the Road. Still Standing.",
+    title: "8 to 9 Hours On the Road. Still Standing.",
     description:
-      "I used to travel for 4 hours and need a whole day of sleep before coming back to the world. Now I travel 8–9 hours and am still active the next day. I reduced TikTok and Instagram for long videos and can concentrate for hours thanks to Saturday sessions.",
-    metric: "4 hrs → 8–9 hrs active",
+      "I used to travel for 4 hours and need a whole day of sleep before coming back to the world. Now I travel 8 to 9 hours and am still active the next day. I reduced TikTok and Instagram for long videos and can concentrate for hours thanks to Saturday sessions.",
+    metric: "4 hrs to 8-9 hrs active",
     ratingCount: "110%",
     buttonLabel: "Unbreakable resilience",
     image: "/photos/DSC_5358.jpg",
@@ -156,7 +156,7 @@ export const definingMomentsCards = [
     tag: "My best year · skills & empathy",
     title: "Qualify, Quantify & Appreciation",
     description:
-      "This is my best year. I learned how to write a CV that qualifies and quantifies, time management, and learning through chunking. From checking what fellow mentees do in peer mentorship, I learned the art of appreciation — looking at art and feeling what the person felt.",
+      "This is my best year. I learned how to write a CV that qualifies and quantifies, time management, and learning through chunking. From checking what fellow mentees do in peer mentorship, I learned the art of appreciation, looking at art and feeling what the person felt.",
     metric: "CV · Chunking · Empathy",
     ratingCount: "110%",
     buttonLabel: "My best year yet",
@@ -180,25 +180,25 @@ export const definingMomentsCards = [
 export const circleCarouselPhotos = [
   {
     src: "/photos/DSC_8357.jpg",
-    caption: "People who are happy seeing you grow — Dr. C, mentors & fellow mentees",
+    caption: "People who are happy seeing you grow: Dr. C, mentors & fellow mentees",
     isPortrait: true,
     objectPosition: "center 12%",
   },
   {
     src: "/photos/DSC_8353.jpg",
-    caption: "Close circle in KamiLimu — meaningful friendships built along the way",
+    caption: "Close circle in KamiLimu: meaningful friendships built along the way",
     isPortrait: false,
     objectPosition: "center 14%",
   },
   {
     src: "/photos/DSC_8414.jpg",
-    caption: "The art of appreciation — celebrating each other's peer mentorship work",
+    caption: "The art of appreciation: celebrating each other's peer mentorship work",
     isPortrait: true,
     objectPosition: "center 10%",
   },
   {
     src: "/photos/DSC_2119.jpg",
-    caption: "Unapologetically more than one thing — Cohort 10 family",
+    caption: "Unapologetically more than one thing: Cohort 10 family",
     isPortrait: false,
     objectPosition: "center 12%",
   },
@@ -225,7 +225,7 @@ export const coreLessonsList = [
   {
     title: "Close circle & community that celebrates you",
     detail:
-      "Realizing there are people out here genuinely happy to see you grow — Dr. C, mentors, fellow mentees, and my close circle.",
+      "Realizing there are people out here genuinely happy to see you grow, from Dr. C, mentors, and fellow mentees to my close circle.",
   },
 ];
 
