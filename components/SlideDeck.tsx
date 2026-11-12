@@ -164,13 +164,13 @@ export const SlideDeck: React.FC = () => {
             <div className="mt-7 flex flex-wrap items-center gap-4">
               <button
                 onClick={triggerMusic}
-                className="px-7 py-3.5 rounded-md bg-[#9d5c63] hover:bg-[#874c53] text-white text-[13px] font-semibold tracking-[0.04em] shadow-[0_12px_28px_rgba(157,92,99,0.38)] transition-all cursor-pointer hover:-translate-y-0.5 active:translate-y-0"
+                className="px-7 py-3.5 rounded-full bg-[#9d5c63] hover:bg-[#874c53] text-white text-[13px] font-semibold tracking-[0.04em] shadow-[0_12px_28px_rgba(157,92,99,0.38)] transition-all cursor-pointer hover:-translate-y-0.5 active:translate-y-0"
               >
                 {currentHero.cta}
               </button>
               <button
                 onClick={() => scrollToSection("section-moments", "defining moments")}
-                className="px-6 py-3.5 rounded-md bg-[#fffdfa] hover:bg-white text-[#4a2531] text-[13px] font-semibold tracking-[0.04em] border border-[#9d5c63]/30 shadow-[0_8px_20px_rgba(157,92,99,0.16)] transition-all cursor-pointer"
+                className="px-6 py-3.5 rounded-full bg-[#fffdfa] hover:bg-white text-[#4a2531] text-[13px] font-semibold tracking-[0.04em] border border-[#9d5c63]/30 shadow-[0_8px_20px_rgba(157,92,99,0.16)] transition-all cursor-pointer"
               >
                 Read my journey
               </button>
@@ -321,7 +321,7 @@ export const SlideDeck: React.FC = () => {
             <div className="mt-6">
               <button
                 onClick={() => scrollToSection("section-circle", "lessons & circle")}
-                className="px-6 py-3 rounded-md bg-[#fffdfa] hover:bg-[#f7ebec] text-[#9d5c63] text-[12.5px] font-bold tracking-[0.04em] transition-all cursor-pointer shadow-md"
+                className="px-6 py-3 rounded-full bg-[#fffdfa] hover:bg-[#f7ebec] text-[#9d5c63] text-[12.5px] font-bold tracking-[0.04em] transition-all cursor-pointer shadow-md"
               >
                 {innovationSpotlight.buttonText}
               </button>
@@ -352,7 +352,7 @@ export const SlideDeck: React.FC = () => {
           </div>
           <button
             onClick={() => scrollToSection("section-circle", "lessons & circle")}
-            className="text-[12.5px] font-bold tracking-[0.03em] text-[#9d5c63] hover:underline cursor-pointer"
+            className="px-4 py-1.5 rounded-full bg-[#f7ebec] hover:bg-[#9d5c63] hover:text-white text-[12.5px] font-bold tracking-[0.03em] text-[#9d5c63] transition-colors cursor-pointer"
           >
             view all
           </button>
@@ -420,7 +420,7 @@ export const SlideDeck: React.FC = () => {
 
                   <button
                     onClick={() => setSelectedMomentId(card.id === selectedMomentId ? null : card.id)}
-                    className="mt-3.5 w-full py-2.5 rounded-md bg-[#9d5c63] hover:bg-[#874c53] text-white text-[12px] font-semibold tracking-[0.04em] shadow-[0_6px_16px_rgba(157,92,99,0.28)] transition-colors cursor-pointer"
+                    className="mt-3.5 w-full py-2.5 rounded-full bg-[#9d5c63] hover:bg-[#874c53] text-white text-[12px] font-semibold tracking-[0.04em] shadow-[0_6px_16px_rgba(157,92,99,0.28)] transition-colors cursor-pointer"
                   >
                     {card.buttonLabel}
                   </button>
@@ -444,7 +444,7 @@ export const SlideDeck: React.FC = () => {
             </div>
             <button
               onClick={() => setSelectedMomentId(null)}
-              className="px-4 py-2 rounded-md bg-[#9d5c63] text-white text-[12px] font-semibold tracking-wide shrink-0 cursor-pointer"
+              className="px-5 py-2 rounded-full bg-[#9d5c63] text-white text-[12px] font-semibold tracking-wide shrink-0 cursor-pointer"
             >
               close
             </button>
@@ -666,13 +666,13 @@ export const SlideDeck: React.FC = () => {
             <p className="text-[12.5px] text-[#e8d5d1] leading-relaxed mb-4">
               The song that describes my KamiLimu Effect the most: <b>&ldquo;Where I Found Myself&rdquo;</b> by August Green.
             </p>
-            <div className="flex items-stretch rounded-md overflow-hidden border border-white/20 shadow-md">
-              <div className="bg-[#fffdfa] text-[#231519] px-3 py-2.5 text-[12px] flex-1 flex items-center truncate">
+            <div className="flex items-center rounded-full bg-[#fffdfa] p-1 border border-white/20 shadow-md">
+              <div className="text-[#231519] px-3 py-1.5 text-[12px] flex-1 flex items-center truncate">
                 August Green · Where I Found Myself
               </div>
               <button
                 onClick={triggerMusic}
-                className="bg-[#9d5c63] hover:bg-[#b38284] text-white px-4 py-2.5 text-[12px] font-bold tracking-[0.04em] transition-colors cursor-pointer shrink-0"
+                className="rounded-full bg-[#9d5c63] hover:bg-[#b38284] text-white px-4 py-2 text-[12px] font-bold tracking-[0.04em] transition-colors cursor-pointer shrink-0"
               >
                 play song
               </button>
@@ -683,9 +683,9 @@ export const SlideDeck: React.FC = () => {
         <div className="max-w-[1220px] mx-auto pt-6 flex flex-col sm:flex-row items-center justify-between text-[11.5px] text-[#e8d5d1]/80 gap-4">
           <div>© 2026 Mercyline Nyaboke · Cohort 10 Peer Mentorship Task 7 · The KamiLimu Effect</div>
           <div className="flex items-center gap-3">
-            <span className="px-2.5 py-1 rounded-sm bg-white/10 text-white font-semibold">110% always</span>
-            <span className="px-2.5 py-1 rounded-sm bg-white/10 text-white font-semibold">resilient</span>
-            <span className="px-2.5 py-1 rounded-sm bg-white/10 text-white font-semibold">super gal</span>
+            <span className="px-3 py-1 rounded-full bg-white/10 text-white font-semibold">110% always</span>
+            <span className="px-3 py-1 rounded-full bg-white/10 text-white font-semibold">resilient</span>
+            <span className="px-3 py-1 rounded-full bg-white/10 text-white font-semibold">super gal</span>
           </div>
         </div>
       </footer>
